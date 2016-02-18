@@ -1,2 +1,3 @@
 CAU-SerialMonitor/bin/*.class
+CAU-SerialMonitor/bin/.gitignore
 CAU-SerialMonitor/log/
