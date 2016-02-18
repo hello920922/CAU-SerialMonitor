@@ -35,7 +35,7 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
 
-public class SerialMonitor extends JFrame implements ComponentListener, SerialPortEventListener, ActionListener, KeyListener{
+public class CAU_SerialMonitor extends JFrame implements ComponentListener, SerialPortEventListener, ActionListener, KeyListener{
     /**
      * 
      */
@@ -95,7 +95,7 @@ public class SerialMonitor extends JFrame implements ComponentListener, SerialPo
     private String[] lineEndingChars = {"", "\n", "\r", "\n\r"};
     private File directory;
 
-    public SerialMonitor() {
+    public CAU_SerialMonitor() {
         /* Default Setting for Frame */
         setTitle(TITLE);
         setLayout(null);
@@ -416,7 +416,7 @@ public class SerialMonitor extends JFrame implements ComponentListener, SerialPo
     public void keyTyped(KeyEvent e) {}
 
     public static void main(String [] args){
-        new SerialMonitor();
+        new CAU_SerialMonitor();
     }
 
 }
